@@ -25,7 +25,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## return the cached inverse , and compute it otherwise
+## return the cached inverse if exist , or compute it otherwise
 
 cacheSolve <- function(x, ...) {
  m <- x$getInverse()
